@@ -9,6 +9,9 @@ The goal of this project is to assist farmers in promptly identifying plant dise
 By doing this, we want to develop a tool that can determine whether plants are sick by analyzing images of their leaves. In this manner, farmers are able to ensure that their crops grow well and maintain their health at an early stage. For farmers, it’s like having a plant-problem-spotting helpful friend.
 The project involves classification of the dataset based on their respective classes, based on the label using Custom CNN and Pre-trained DNN models. This project was implemented using python by splitting the whole dataset into 3 parts as training, validation and testing dataset which is used throughout the course of training a model. In this project we experimented to classify the dataset using ResNet, Inception and Custom CNN model, for the DNN model we used pre-trained dataset to determine the class and train the model more efficiently. Before training the dataset it was pre-processed to remove any noise from the images so that the DNN model can recognize the area of interest precisely. The training data was saved after preprocessing so that it could be used for faster use.
 
+### Dataset Link
+https://github.com/pratikkayal/PlantDoc-Dataset
+
 ### Prerequisites
     1.tensorflow
     2.keras
